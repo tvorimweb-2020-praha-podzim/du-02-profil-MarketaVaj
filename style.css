@@ -17,3 +17,92 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+
+.foto{
+    width: 305px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.obsah{
+    position: relative;
+    box-sizing: content-box;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    background-color: #31363b;
+    position: relative;
+    top: 305 px;
+    width: 305px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 25px;
+    color: whitesmoke;
+    }
+
+.jmeno{
+    font-size: 35px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+
+.odstavecJedna{
+    margin-bottom: 20px;
+}
+
+.logo{
+        position: absolute;
+        left: 240px;
+        top: 200px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #b92e81;
+        color: whitesmoke;
+    }
+
+    .odkazy{
+        margin-left: 20px;
+        font-family: sans-serif;
+        font-style: normal;
+       /* text-align: center; */
+        font-size: 17px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #31363b;
+    }
+
+    /*
+    .portfolio{
+        font-family: sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 17px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #31363b;
+    }
+
+    .facebook{
+        font-family: sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 17px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #31363b;
+        color: whitesmoke;
+    }
+
+    .twitter{
+        font-family: sans-serif;
+        font-style: normal;
+        text-align: center;
+        font-size: 17px;
+        line-height: 30px;
+        text-transform: uppercase;
+        background-color: #31363b;
+        color: whitesmoke;
+    }*/
