@@ -22,16 +22,16 @@ body {
     width: 305px;
     margin-top: 20px;
     margin-left: 20px;
+    box-shadow:  3px 3px 3px 3px rgb(131, 126, 126);
+    position: relative;
 }
+
+/*Prošla jsem všechhno možné, ale nedaří se mně dostat obsah přímo pod fotku. Czechitou a relative by to snad být nemělo. Když jsem Czechitu přesunu pod obsah v html tak její absolute nastavení fungovalo i pro relative obsah. Ale proč obsah nejde posunout nahoru asi vymyslet už nedokážu. To stejné pak řeším u odkazů dole*/
 
 .obsah{
     position: relative;
-    box-sizing: content-box;
     margin-left: 20px;
-    margin-bottom: 60px;
     background-color: #31363b;
-    position: relative;
-    top: 305 px;
     width: 305px;
     font-family: sans-serif;
     font-style: normal;
@@ -39,13 +39,13 @@ body {
     line-height: 25px;
     padding-left: 25px;
     color: whitesmoke;
+    box-shadow:  3px 3px 3px 3px rgb(131, 126, 126);
     }
 
 .jmeno{
     font-size: 35px;
     line-height: 30px;
     margin-bottom: 20px;
-    margin-top: 20px;
     }
 
 .odstavecJedna{
@@ -54,10 +54,10 @@ body {
 
 .logo{
         position: absolute;
-        left: 240px;
+        left: 260px;
         top: 200px;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         background-color: #b92e81;
         color: whitesmoke;
@@ -65,44 +65,40 @@ body {
 
     .odkazy{
         margin-left: 20px;
+        width: 305px;
+        height: 100px;
         font-family: sans-serif;
         font-style: normal;
-       /* text-align: center; */
         font-size: 17px;
-        line-height: 30px;
         text-transform: uppercase;
-        background-color: #31363b;
-    }
-
-    /*
-    .portfolio{
-        font-family: sans-serif;
-        font-style: normal;
-        text-align: center;
-        font-size: 17px;
-        line-height: 30px;
-        text-transform: uppercase;
-        background-color: #31363b;
-    }
-
-    .facebook{
-        font-family: sans-serif;
-        font-style: normal;
-        text-align: center;
-        font-size: 17px;
-        line-height: 30px;
-        text-transform: uppercase;
+        text-decoration: none;
         background-color: #31363b;
         color: whitesmoke;
+        list-style-type: none;
+        padding: 0px;  
     }
 
-    .twitter{
-        font-family: sans-serif;
-        font-style: normal;
+/* Netuším jak dostat text na střed a jak jak rozdělit Facebook a Twitter do dvou na jednom řádku. Napadlo mně to udělat přes tlačítka, ale to asi není zadáním, když v html je to popsané jako seznam. */
+
+    .portfolio:hover{
+        display: block; 
+        height: 50px;     
         text-align: center;
-        font-size: 17px;
-        line-height: 30px;
-        text-transform: uppercase;
-        background-color: #31363b;
-        color: whitesmoke;
-    }*/
+        background-color: #e74c3c;
+    }
+
+    .facebook:hover{
+        display: inline-block;
+        height: 50px;
+        width: 125px;
+        background-color: #3b5998
+    }
+
+    .twitter:hover{
+        display: inline-block;
+        height: 50px;
+        width: 125px;
+        background-color: #1da1f2;
+    }
+
+  
